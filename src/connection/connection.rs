@@ -3630,6 +3630,11 @@ impl Connection {
         self.paths.get_active()
     }
 
+    pub fn get_active_path_mut(&mut self) -> Result<&mut path::Path> {
+        self.paths.get_active_mut()
+    }
+
+
     /// Return an mutable reference to the specified path
     pub fn get_path_stats(
         &mut self,
