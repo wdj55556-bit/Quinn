@@ -1,6 +1,6 @@
 # Quinn: Online Stream Concurrency Optimization for QUIC
 
-[![License](https://img.shields.io/badge/license-Apache%202.0-green)](https://github.com/wdj55556-bit/Quinn/LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%202.0-green)](https://github.com/wdj55556-bit/Quinn//blob/main/LICENSE)
 
 Quinn is an innovative algorithm designed to optimize stream concurrency over the QUIC protocol. It combines a utility function with online gradient descent (OGD) to dynamically adjust stream concurrency, resulting in improved file transfer performance under various network conditions.
 
